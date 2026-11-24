@@ -1,9 +1,5 @@
-let age = 0;
-
-if (age >= 65) {
-  console.log("senior");
-} else if (age >= 18) {
-  console.log("adult");
-} else {
-  console.log("minor");
+for (let i = 1; i <= 20; i++) {
+  if (i %2 == 0){
+    console.log(i);
+  }
 }
