@@ -1,5 +1,2 @@
-for (let i = 1; i <= 20; i++) {
-  if (i %2 == 0){
-    console.log(i);
-  }
-}
+const double = (number) => number * 2 ;
+console.log (double(5));
